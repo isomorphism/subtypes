@@ -1,0 +1,15 @@
+Name:                acme-subtypes
+Version:             1.1
+Synopsis:            The subtyping system defined by GHC Haskell
+Homepage:            https://github.com/isomorphism/subtypes
+License:             WTFPL
+License-file:        LICENSE
+Author:              C. McCann
+Maintainer:          cam@uptoisomorphism.net
+Category:            Acme
+Build-type:          Simple
+Cabal-version:       >=1.2
+
+Library
+  Exposed-modules:  Acme.Subtype
+  Build-depends:    base >= 3 && < 5
